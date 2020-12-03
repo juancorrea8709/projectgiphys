@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#barra1 {
+    width: 100%;
+    height: 23px;
+    background-image: linear-gradient(270deg,#F7C9F3 0%, #4180F6 100%);
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+#logo {
+    margin-top: 59px;
+    margin-left: 91px;    
+}
+#crearGifos {
+    background-color: #F7C9F3;
+    width: 144px;
+    height: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    text-justify: auto;
+    float: right;
+    margin-top: -68px;
+    margin-right: 417px;
+    cursor: pointer;
+}
+
+#elegirTemas {
+    background-color: #F7C9F3;
+    width: 144px;
+    height: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    text-justify: center;
+    text-align: center;
+    float: right;
+    margin-top: -68px;
+    margin-right: 270px;
+    cursor: pointer;
+}
+#temas {
+    background-color: #F7C9F3;
+    width: 144px;
+    height: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    float: right;
+    margin-top: -68px;
+    margin-right: 270px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+#botonFlecha {
+    width: 36px;
+    height: 36px;
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    float: right;
+    margin-top: -68px;
+    margin-right: 240px;
+}
+#misGuifos {
+    font-family: 'Chakra Petch', sans-serif;
+    float: right;
+    font-size: 16px;
+    margin-right: 9.8%;
+    margin-top: -4.6%;
+    position: relative;
+}
+
+.oscura {
+    display: none;
+    font-family: 'Chakra Petch', sans-serif;
+    float: right;
+    font-size: 16px;
+    margin-right: 290px;
+    margin-top: -30px;
+}
+
+.desplegable:hover .oscura {
+    display: block;
+   
+}
+body {
+    background-color: #fff4fd;
+}
+body.dark {
+    background: #110038;
+}
+
+
+#container1 {
+    width: 1200px;
+    height: 99px;
+    background: #E6E6E6;
+    justify-content: center;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+#barra2 {
+    background-image: linear-gradient(270deg,#F7C9F3 0%, #4180F6 100%);
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    justify-content: center;
+}
+#barraBusqueda{
+    width: 1057px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+#botonBusqueda {
+    width: 102px;
+    height: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 0.6%;
+}
+#barra3 {
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 100px;
+    width: 1200px;
+    height: 32px;
+    background: white;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#barra4 {
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 350px;
+    width: 1200px;
+    height: 32px;
+    background: white;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sugeridos {
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.item {
+    float: left;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+.barrasGif {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+.resultados2{
+    width: calc(300px * 4 );
+    margin: 1.1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#resultados {
+    columns: 4;
+    column-gap: 1em;
+    margin: auto  auto;
+}
+.verMas {
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 0px;
+    width: 81px;
+    height: 34px;
+    margin-bottom: -200px;
+    margin-left: -180px;
+}
